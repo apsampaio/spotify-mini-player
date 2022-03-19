@@ -1,0 +1,31 @@
+:root {
+  --green: #1db954;
+  --black: #121212;
+  --light-black: #212121;
+  --grey: #535353;
+  --light-grey: #b3b3b3;
+  --white: #f8f8f8;
+}
+
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+}
+
+.cet-titlebar,
+.cet-titlebar > * {
+  color: var(--white);
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
